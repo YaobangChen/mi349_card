@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 10%;
 }
 
 h1 {
@@ -44,4 +44,9 @@ h2 {
     width: 30px;
     display: inline-block;
     padding: 20px 10px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
 }
